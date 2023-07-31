@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": " next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider &&  next dev",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build && next export",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && next start",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "export": "SET NODE_OPTIONS=--openssl-legacy-provider && next export"

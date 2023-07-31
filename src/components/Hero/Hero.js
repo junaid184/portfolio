@@ -24,8 +24,7 @@ const Hero = (props) => (
         <SectionText>
           A Full Stack Backend Developer specializing in scalable server-side
           applications with Node.js. Proficient in Next.js and React.js for
-          seamless web development.
-          <span>ChatBot developer</span>
+          seamless web development and also experience in chatbot development. Web automation and scraping
         </SectionText>
         <Button onClick={handleClick}>Hire me</Button>
       </LeftSection>
