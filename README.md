@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-### [Live Site](https://tanveer-e09d4.web.app)
+### [Live Site](https://junaid184.github.io/portfolio/)
 
 This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
 
